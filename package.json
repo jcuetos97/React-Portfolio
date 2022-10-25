@@ -1,0 +1,24 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "React Portfolio with most relevant projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcuetos97/React-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcuetos97/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/jcuetos97/React-Portfolio#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "react": "^18.2.0"
+  }
+}
