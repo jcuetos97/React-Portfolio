@@ -18,16 +18,26 @@ const styles = {
 
 export default function About () {
     return (
-        <div>
-            <h1>About Page</h1>
+        <div className="text-light col-md-6 p-5">
+            <h1>Hi there &#128075;,</h1>
+            <br/>
             <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+            Full-stack web developer, specialized in MERN stack, with strong background in graphic design. 
+            Trained at Tecnológico de Monterrey with a Certificate in Full-Stack Web Development, 
+            innovative problem-solver passionate about developing apps and web solutions. 
+            Strengths in creativity, teamwork, and building projects from ideation to execution.
             </p>
+            <br />
+            <p>
+            Experienced in: Javascript (ES6) | Node.js | Express.js | React.js | HTML5/CSS3 | Git + GitHub | OOP | Sequelize +
+            MySQL | Webpack | MVC | MongoDB + Mongoose | REST APIs | Insomnia | Responsive Web Design
+            </p>
+            <br/>
+            <p>
+            Knowledgeable in: Java | Heroku | Testing (Jest.js) | UI/UX
+            </p>
+            
+            
         </div>
     )
 }
