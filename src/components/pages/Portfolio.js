@@ -1,28 +1,25 @@
 import React from "react";
-import COOKED from "../../assets/jpeg/COOKED.jpg"
-import FormulaOne from "../../assets/jpeg/FormulaOneDemo.jpg"
+import { PortfolioData }  from "../PortfolioData";
 
 
-
-export default function Portfolio(){
+export default function Portfolio(){  
     return(
-        <div>
-            <div className="container d-flex justify-content-center align-items-center">
-                <div className="card col-md-3 m-5">
-                <img class="card-img-top" src={COOKED} alt="COOKED Demo"/>
-                    <div class="card-body">
-                        <h5 class="card-title">COOKED</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-                <div className="card col-md-3">
-                    <img class="card-img-top" src={FormulaOne} alt="Card image cap"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Formula One</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div className="">
+            <ul className="m-0 p-0 d-flex flex-wrap justify-content-center align-items-center">
+                { PortfolioData.map(project => (
+                    <li className="card col-md-4 m-2">
+                        <img className="card-img-top"
+                                src={project.img} 
+                                alt={project.title}
+                                />
+                        <div class="card-body">
+                            <h5 class="card-title">{project.title}</h5>
+                            <p class="card-text">{project.description}</p>
+                            <a href={project.url} class="btn btn-primary">Go to app</a>
+                        </div>
+                    </li>
+                )) }
+            </ul> 
+        </div>       
     );
 }

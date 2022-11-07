@@ -6,7 +6,7 @@ const styles = {
       padding: '1rem',
       borderRadius: '1rem'
     }
-  };
+};
 
 
 export default function Contact () {
@@ -41,4 +41,4 @@ export default function Contact () {
             </section> 
       </div> 
     )
-};
+}
