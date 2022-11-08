@@ -1,7 +1,8 @@
 # React-Portfolio
 ## [Description](#table-of-contents)
 
-API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, the Mongoose ODM, and Moment.js to format timestamps. The seed data is created using Insomnia.
+React Portfolio where users can see my most recent projects and works. The app contains four sections: About, Portfolio, Contact and Projects. 
+Deployed with GithHub Pages.
 
 ![Demo](./public/assets/SS.png)
 
@@ -16,36 +17,10 @@ API for a social network web application where users can share their thoughts, r
 ## [Installation](#table-of-contents)
 
 - Download or clone repository to use this application on local machine.
-- `Node.js` and `MongoDB` is required to run the application
 - To install necessary dependencies, navigate to the root directory and run the following command: `npm install`
 
 ## [Usage](#table-of-contents)
-- After installation, run `npm start`.
-- When the server is started, the Mongoose models are synched to the MongoDB database.
-- Open MongoDB and connect to the MongoDB URI `mongodb://localhost:27017`. On the list of databases, select `socialnetDB` to see `thoughts` and `users` data.
-- To create seed data and test the API routes, use [Insomnia](https://insomnia.rest/download). 
-
-**USER**
-- `GET` All Users route: http://localhost:3001/api/users
-- `GET` User by Id: http://localhost:3001/api/users/:userId
-- `POST` Create User route: http://localhost:3001/api/users 
-- `PUT` Update User by Id route: http://localhost:3001/api/users/:userId
-- `DELETE` Delete User by Id route: http://localhost:3001/api/users/:userId
-
-**FRIENDS**
-- `POST` Add friend to user's friend list: http://localhost:3001/api/users/:userId/friends/friendId
-- `DELETE` Remove friend from a user's friend list: http://localhost:3001/api/users/:userId/friends/friendId
-
-**THOUGHTS**
-- `GET` All Thoughts: http://localhost:3001/api/thoughts
-- `GET` Thought by Id: http://localhost:3001/api/thoughts/:thoughtId
-- `POST` Create Thought: http://localhost:3001/api/thought 
-- `PUT` Update Thought by Id: http://localhost:3001/api/thoughts/:thoughtId
-- `DELETE` Delete Thought by Id: http://localhost:3001/api/thoughts/:thoughtId
-
-**REACTIONS**
-- `POST` Create Reaction: http://localhost:3001/api/thoughts/:thoughtId/reactions
-- `DELETE` Remove Reaction: http://localhost:3001/api/thoughts/:thoughtId/reactions/:reactionId
+- After installation, run `npm run start`.
 
 ## [License](#table-of-contents)
 
