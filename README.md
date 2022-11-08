@@ -36,12 +36,9 @@ For the moment this project does not accept contributions from third parties. Th
 
 This application was built with: 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Express.js](https://expressjs.com/)
+- [React.js](https://beta.reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
-- [Insomnia](https://insomnia.rest/)
-- [Moment.js](https://www.npmjs.com/package/moment)
+
 
 ## [Questions](#table-of-contents)
 
