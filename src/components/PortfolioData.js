@@ -11,7 +11,7 @@ export const PortfolioData = [
         id: 2,
         title: "Formula One Personal Webpage",
         img: "https://raw.githubusercontent.com/jcuetos97/Formula1-Webpage/master/Assets/Images/FormulaOneSS.jpg",
-        url: "https://davidtc8.github.io/Formula1-Webpage/p",
+        url: "https://davidtc8.github.io/Formula1-Webpage/",
     },
 
     { 

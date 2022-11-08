@@ -34,7 +34,7 @@ export default function Portfolio(){
                                 alt={project.title}
                                 />
                         <div className="card-img-overlay">
-                            <a href={project.url} className="btn btn-light" style={styles.button}>Go to app</a>
+                            <a target="_blank" rel="noreferrer" href={project.url} className="btn btn-light" style={styles.button}>Go to app</a>
                         </div>
                     </li>
                 )) }
