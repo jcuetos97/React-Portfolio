@@ -2,7 +2,8 @@
 ## [Description](#table-of-contents)
 
 React Portfolio where users can see my most recent projects and works. The app contains four sections: About, Portfolio, Contact and Projects. 
-Deployed with GithHub Pages.
+
+Deployed with [GithHub Pages](https://jcuetos97.github.io/React-Portfolio/).
 
 ![Demo](./src/assets/jpeg/ReactPortfolioSS.jpg)
 
