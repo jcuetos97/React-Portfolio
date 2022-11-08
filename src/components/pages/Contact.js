@@ -19,8 +19,9 @@ export default function Contact () {
     }
 
     return (   
-        <div className="d-flex flex-column align-items-center m-5"> 
+        <div className="d-flex flex-column m-5"> 
             <section className="container p-2.5 col-md-6 bg-light" style={styles.containerCustom}>
+                <h2 className="text-dark">Contact</h2>
                <form onSubmit={handleSubmit} className="needs-validation" novalidate>
                 <div clasName="mb-3">
                         <label for="nameInput" className="form-label text-dark my-3">Name:</label>

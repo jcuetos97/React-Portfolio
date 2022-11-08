@@ -9,8 +9,8 @@ import Footer from "./Footer";
 const styles = {
   main: {
     background: '#0C1618',
-    minHeight:'100vh'
-  },
+    minHeight:'100vh',
+  }
 };
 
 export default function PortfolioContainer() {
@@ -32,6 +32,7 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
     
     return (
+
        <div style={styles.main}>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
         {renderPage()}

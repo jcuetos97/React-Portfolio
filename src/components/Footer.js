@@ -9,17 +9,24 @@ const styles = {
       maxWidth: '35px',
       margin: '1rem'
     },
+    footer:{
+        padding: '1rem',
+        position: 'relative',
+        bottom: '0vh',
+        display: 'flex',
+        justifyContent: 'center',
+        width: '100%'
+    }
   };
 
 export default function Footer () {
 
     return (
-        <footer className="d-flex justify-content-center p-3">
-            <div>
+        <footer style={styles.footer} >
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jcuetos97/">
                 <img
                     style={styles.icon}
-                    src={LinkedIn}
+                    src={LinkedIn} 
                     alt="icon"
                 />
                 </a>
@@ -37,7 +44,6 @@ export default function Footer () {
                     alt="icon"
                 />
                 </a>
-            </div>
         </footer>
     );
 }
