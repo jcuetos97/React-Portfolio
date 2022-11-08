@@ -7,6 +7,7 @@ function NavTabs ({currentPage, handlePageChange}) {
                 <a 
                     class="navbar-brand px-5" 
                     href="#About"
+                    onClick={ () => handlePageChange('About')}
                 >
                 Juan José Espinosa
                 </a>

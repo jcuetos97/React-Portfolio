@@ -1,5 +1,6 @@
 import React from "react";
 import { PortfolioData }  from "../PortfolioData";
+import GitHub from "../../assets/png/github-ico.png";
 
 const styles = {
     portfolio: {
@@ -16,6 +17,12 @@ const styles = {
     button: {
         position: 'absolute',
         bottom: '15px',
+    },
+    gitHubBttn: {
+        height: '41px',
+        position: 'absolute',
+        bottom: '15px',
+        right: '15px'
     }
   };
 
@@ -35,6 +42,9 @@ export default function Portfolio(){
                                 />
                         <div className="card-img-overlay">
                             <a target="_blank" rel="noreferrer" href={project.url} className="btn btn-light" style={styles.button}>Go to app</a>
+                            <a target="_blank" rel="noreferrer" href={project.urlGit}>
+                                <img src={GitHub} alt="GitHub Link" className="btn btn-dark" style={styles.gitHubBttn}/>
+                            </a>
                         </div>
                     </li>
                 )) }
